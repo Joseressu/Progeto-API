@@ -11,6 +11,7 @@ Vamos apresentar o nosso projeto (API) começando por uma breve introdução.
 
 API - É um lugar para disponibilizar recursos e/ou funcionalidades.  
 Meu Objetivo - foi Criar uma API que disponibiliza a consulta, criação, edição e exclusão de celulares disponiveis em uma loja.
+
 Aqui estão os principais pontos do código: 
 *Listagem de todos os celulares:
 
