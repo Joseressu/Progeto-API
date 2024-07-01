@@ -10,7 +10,7 @@ Vamos apresentar o nosso projeto (API) começando por uma breve introdução.
 ## Introdução
 
 API - É um lugar para disponibilizar recursos e/ou funcionalidades.  
-Objetivo - Criar uma API que disponibiliza a consulta, criação, edição e exclusão de celulares disponiveis.
+Meu Objetivo - foi Criar uma API que disponibiliza a consulta, criação, edição e exclusão de celulares disponiveis em uma loja.
 
 Após a execução do codigo, no seu terminal irá aparecer esta informação:
  PS C:\Users\user\Desktop\exame> & C:/Users/user/AppData/Local/Programs/Python/Python312/python.exe c:/Users/user/Desktop/exame/app.py
@@ -33,9 +33,9 @@ URL base - `localhost`
 ## Endpoints
 
 - `GET` localhost/celulares - Lista todos os celuluares
-- `POST` localhost/celulares - Criar um novo celular no sistema
+- `POST` localhost/celulares - adicionar informações de  um novo celular no sistema
 - `GET` localhost/celulares/id - Consulta um celular específico
-- `PUT` localhost/celulares/id - Edita um celular específico
-- `DELETE` localhost/celulares/id - Exclui um celulalar específico do sistema
+- `PUT` localhost/celulares/id - Editar informações de  um celular específico
+- `DELETE` localhost/celulares/id - Exclui  um celulalar específico no sistema
 
 Trabalhei com o Postman para o teste destas funcionalidades.
