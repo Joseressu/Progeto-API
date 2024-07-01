@@ -13,29 +13,38 @@ API - É um lugar para disponibilizar recursos e/ou funcionalidades.
 Meu Objetivo - foi Criar uma API que disponibiliza a consulta, criação, edição e exclusão de celulares disponiveis em uma loja.
 
 Aqui estão os principais pontos do código: 
+
 *Listagem de todos os celulares:
 
 Endpoint: /celulares
+
 Método: GET
+
 Descrição: Retorna uma lista de todos os celulares cadastrados.
 
-*
-Obter celular por ID:
+
+*Obter celular por ID:
 
 Endpoint: /celulares/<int:id>
+
 Método: GET
+
 Descrição: Retorna os detalhes de um celular específico baseado no ID fornecido.
 
 *Editar celular por ID:
 
 Endpoint: /celulares/<int:id>
+
 Método: PUT
+
 Descrição: Permite editar as informações de um celular específico.
 
 *Incluir novo celular:
 
 Endpoint: /celulares
+
 Método: POST
+
 Descrição: Permite adicionar um novo celular à lista. As informações do novo celular são enviadas no corpo da requisição em formato JSON.
 
 
@@ -57,7 +66,9 @@ Press CTRL+C to quit
 *xcluir celular por ID:
 
 Endpoint: /celulares/<int:id>
+
 Método: DELETE
+
 Descrição: Permite excluir um celular específico baseado no ID fornecido na URL.
 
 
