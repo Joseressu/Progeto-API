@@ -11,6 +11,33 @@ Vamos apresentar o nosso projeto (API) começando por uma breve introdução.
 
 API - É um lugar para disponibilizar recursos e/ou funcionalidades.  
 Meu Objetivo - foi Criar uma API que disponibiliza a consulta, criação, edição e exclusão de celulares disponiveis em uma loja.
+Aqui estão os principais pontos do código: 
+*Listagem de todos os celulares:
+
+Endpoint: /celulares
+Método: GET
+Descrição: Retorna uma lista de todos os celulares cadastrados.
+
+*
+Obter celular por ID:
+
+Endpoint: /celulares/<int:id>
+Método: GET
+Descrição: Retorna os detalhes de um celular específico baseado no ID fornecido.
+
+*Editar celular por ID:
+
+Endpoint: /celulares/<int:id>
+Método: PUT
+Descrição: Permite editar as informações de um celular específico.
+
+*Incluir novo celular:
+
+Endpoint: /celulares
+Método: POST
+Descrição: Permite adicionar um novo celular à lista. As informações do novo celular são enviadas no corpo da requisição em formato JSON.
+
+
 
 Após a execução do codigo, no seu terminal irá aparecer esta informação:
  PS C:\Users\user\Desktop\exame> & C:/Users/user/AppData/Local/Programs/Python/Python312/python.exe c:/Users/user/Desktop/exame/app.py
@@ -25,6 +52,18 @@ Press CTRL+C to quit
  *
 
  Para acessar sua API no endereço http://localhost:5000, para acessar a Api terá que clicar no (CTRL & botão esquerdo do mouse), Irá abrir o seu navegador e para ter acesso a lista e informações dos celulares na API no endereço http://localhost:5000 terá que add no endereço (/celulares) ficará (http://localhost:5000/celulares), após tudo isso é só recarregar a pagina... 
+
+*xcluir celular por ID:
+
+Endpoint: /celulares/<int:id>
+Método: DELETE
+Descrição: Permite excluir um celular específico baseado no ID fornecido na URL.
+
+
+Tratamento de erro para rotas não encontradas:
+
+Função: pagina_nao_encontrada
+Descrição: Trata erros 404 (página não encontrada) e retorna uma resposta JSON apropriada indicando que a página não foi encontrada.
 
 
 
